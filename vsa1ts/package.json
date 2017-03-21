@@ -47,6 +47,7 @@
         "vinyl-paths": "^2.1.0"
     },
     "dependencies": {
-        "@types/angular": "^1.6.7"
+        "@types/angular": "^1.6.7",
+        "gulp-uncss": "^1.0.6"
     }
 }
