@@ -72,8 +72,8 @@
     <Content Include="docs\yarn_packages.png" />
     <Content Include="wwwroot\app\customers\customerList\customerList.template.html" />
     <Content Include="wwwroot\app\customers\customers.template.html" />
-    <Content Include="wwwroot\app\data\customers.json" />
-    <Content Include="wwwroot\app\data\orders.json" />
+    <Content Include="tests\data\customers.json" />
+    <Content Include="tests\data\orders.json" />
     <Content Include="wwwroot\app\hello\hello.template.html" />
     <Content Include="wwwroot\app\orders\orderDetail\orderDetail.template.html" />
     <Content Include="wwwroot\app\orders\orderList\orderList.template.html" />
@@ -134,12 +134,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dist\" />
-    <Folder Include="tests\services\" />
     <Folder Include="typings\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="tests\customers\customerList\customerList.controller.spec.ts" />
     <TypeScriptCompile Include="tests\orders\orders.controller.spec.ts" />
+    <TypeScriptCompile Include="tests\services\customer.service.spec.ts" />
     <TypeScriptCompile Include="wwwroot\app\app.ts" />
     <TypeScriptCompile Include="tests\customers\customer.controller.spec.ts" />
     <TypeScriptCompile Include="wwwroot\app\customers\customerList\customerList.component.ts" />

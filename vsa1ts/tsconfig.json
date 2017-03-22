@@ -11,7 +11,8 @@
     },
     "include": [
         "wwwroot/app/**/*.ts",
-        "tests/**/*.ts"
+        "tests/**/*.ts",
+        "tests/**/*.json"
     ],
     "exclude": [
         "node_modules",
