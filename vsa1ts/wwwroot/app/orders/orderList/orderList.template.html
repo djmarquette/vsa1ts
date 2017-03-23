@@ -7,7 +7,7 @@
                       ng-class="{'active':customer.id == $ctrl.selectedOrderId}">
             <div class="md-list-item-text">
                 <h3 style="font-weight:600">Order #: {{order.Id}}</h3>
-                <h4>Customer: {{order.CustomerId}} -- Employee: {{order.EmployeeId}}</h4>
+                <h3>Customer: <span ng-bind="order.CustomerId"></span> -- Employee: <span ng-bind="order.EmployeeId"></span></h3>
             </div>
             <md-divider ng-if="!$last"></md-divider>
         </md-list-item>
