@@ -68,7 +68,7 @@ module orders.tests {
 
         });
 
-        it('$onChanges calls loadOrders when customerId changes', () => {
+        it('$onChanges() calls loadOrders when customerId changes', () => {
 
             // spy to make sure method is called after changes
             spyOn(controller, 'loadOrders');
@@ -85,7 +85,7 @@ module orders.tests {
             expect(controller.loadOrders).toHaveBeenCalledWith('BOOGER');
         });
 
-        it('$onChanges does not call loadOrders when customerId doesn\'t change', () => {
+        it('$onChanges() does not call loadOrders when customerId doesn\'t change', () => {
 
             // spy to make sure method is called after changes
             spyOn(controller, 'loadOrders');

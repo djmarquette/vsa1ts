@@ -20,13 +20,13 @@
                                       ng-class="{'active':customer.id == $ctrl.selectedCustomerId}">
                             <div class="md-list-item-text" layout="row" layout-wrap>
                                 <div flex="100">
-                                    <h3>{{customer.CompanyName}}</h3>
+                                    <h3 ng-bind="customer.CompanyName"></h3>
                                 </div>
                                 <div flex="100">
-                                    <h4>{{customer.ContactName}}, {{customer.ContactTitle}}</h4>
+                                    <h4 ng-bind-template="{{customer.ContactName}}, {{customer.ContactTitle}}"></h4>
                                 </div>
                                 <div flex="100">
-                                    <h4>{{customer.City}} {{customer.Country}}</h4>
+                                    <h4 ng-bind-template="{{customer.City}} {{customer.Country}}"></h4>
                                 </div>
                             </div>
                             <md-divider ng-if="!$last"></md-divider>

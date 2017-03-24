@@ -79,6 +79,7 @@ module orders {
                 results['ShipVia'] as any,
                 results['Freight'] as any,
                 results['ShipName'] as any,
+                results['ShipAddress'] as any,
                 results['ShipCity'] as any,
                 results['ShipPostalCode'] as any,
                 results['ShipCountry'] as any
